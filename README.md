@@ -10,3 +10,7 @@ Keeping the track of Longest and second longest word.<br>
 then we are iterating over each input word and checking whether current word can be formed by concatening the other words of given input or not<br>
 <B>Approach of finding time elapse:<br></B>
 using inbuilt function of java currentTimeMillis() which give current execution time then by using this function in starting and in ending we can find out the time gap which result total execution time of our project.
+Subapproach with code description
+I make findLongestCompoundWords Method
+To keep track of longest and second longest compounded word 
+for this it call is Method that tells whether word is compounded or not if yes then it checks whether we have word which larger then that word if not then replace that word with larger compounded word
