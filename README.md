@@ -11,11 +11,11 @@ then we are iterating over each input word and checking whether current word can
 <B>Approach of finding time elapse:<br></B>
 using inbuilt function of java currentTimeMillis() which give current execution time then by using this function in starting and in ending we can find out the time gap which result total execution time of our project.
 <BR><BR><BR><B>Subapproach with code description</B>
-<UL><LI>I make findLongestCompoundWords Method
+<UL><LI><i>I created findLongestCompoundWords Method</i>i>
 <LI>To keep track of longest and second longest compounded word 
 <LI>for this it call isCompoundWord Method that tells whether word is compounded or not if yes then it checks whether we have word which larger then that word if not then replace that word with larger compounded word
 </UL>
-<UL><LI>I make isCompoundWord Method
+<UL><LI><i>I created isCompoundWord Method</i>
 <LI>To check each word whether is compounded or not. 
  <LI> iT accepts trie , word and starting index 
 <LI>it iterate over each letter of word from starting index and checks if there is a child node for the current character in the trie and also it is not last one if it false then word cant form so it return false if yes then it call isCompoundWord Method recursiveley to check further sub letters of same word.
